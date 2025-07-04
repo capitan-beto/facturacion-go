@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soapenv:Body>
+        <loginCmsResponse xmlns="http://wsaa.view.sua.dvadac.desein.afip.gov">
+            <loginCmsReturn>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+                &lt;loginTicketResponse version=&quot;1.0&quot;&gt;
+                &lt;header&gt;
+                &lt;source&gt;CN=wsaahomo, O=AFIP, C=AR, SERIALNUMBER=CUIT 33693450239&lt;/source&gt;
+                &lt;destination&gt;SERIALNUMBER=CUIT 20406165281, CN=carlostest3&lt;/destination&gt;
+                &lt;uniqueId&gt;3036873650&lt;/uniqueId&gt;
+                &lt;generationTime&gt;2024-10-19T19:06:01.418-03:00&lt;/generationTime&gt;
+                &lt;expirationTime&gt;2024-10-20T07:06:01.418-03:00&lt;/expirationTime&gt;
+                &lt;/header&gt;
+                &lt;credentials&gt;
+                &lt;token&gt;PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pgo8c3NvIHZlcnNpb249IjIuMCI+CiAgICA8aWQgc3JjPSJDTj13c2FhaG9tbywgTz1BRklQLCBDPUFSLCBTRVJJQUxOVU1CRVI9Q1VJVCAzMzY5MzQ1MDIzOSIgdW5pcXVlX2lkPSIxOTg2NTk2NDI4IiBnZW5fdGltZT0iMTcyOTM3NTUwMSIgZXhwX3RpbWU9IjE3Mjk0MTg3NjEiLz4KICAgIDxvcGVyYXRpb24gdHlwZT0ibG9naW4iIHZhbHVlPSJncmFudGVkIj4KICAgICAgICA8bG9naW4gZW50aXR5PSIzMzY5MzQ1MDIzOSIgc2VydmljZT0id3NtdHhjYSIgdWlkPSJTRVJJQUxOVU1CRVI9Q1VJVCAyMDQwNjE2NTI4MSwgQ049Y2FybG9zdGVzdDMiIGF1dGhtZXRob2Q9ImNtcyIgcmVnbWV0aG9kPSIyMiI+CiAgICAgICAgICAgIDxyZWxhdGlvbnM+CiAgICAgICAgICAgICAgICA8cmVsYXRpb24ga2V5PSIyMDQwNjE2NTI4MSIgcmVsdHlwZT0iNCIvPgogICAgICAgICAgICA8L3JlbGF0aW9ucz4KICAgICAgICA8L2xvZ2luPgogICAgPC9vcGVyYXRpb24+Cjwvc3NvPgo=&lt;/token&gt;
+                &lt;sign&gt;VNxF9bdBFhQH/hfzi2KLAhB68pmcpMTdZg6IFj/yPTAdfjCU1H2M0b3FT6Jv489n5ZdLOITpPITNRANZPJYgm3B5Ny/wG4J16P4SCenYcWntJIBUWhHMsv7EJiSOjmKU7naJNUmH/vTyfLc5bVwUK+bXH2saO6tib2Yx7Dt1Rj0=&lt;/sign&gt;
+                &lt;/credentials&gt;
+                &lt;/loginTicketResponse&gt;
+            </loginCmsReturn>
+        </loginCmsResponse>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<loginTicketResponse version="1.0">
+    <header>
+        <source>CN=wsaahomo, O=AFIP, C=AR, SERIALNUMBER=CUIT 33693450239</source>
+        <destination>SERIALNUMBER=CUIT 20406165281, CN=carlostest3</destination>
+        <uniqueId>3036873650</uniqueId>
+        <generationTime>2024-10-19T19:06:01.418-03:00</generationTime>
+        <expirationTime>2024-10-20T07:06:01.418-03:00</expirationTime>
+    </header>
+    <credentials>
+        <token>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pgo8c3NvIHZlcnNpb249IjIuMCI+CiAgICA8aWQgc3JjPSJDTj13c2FhaG9tbywgTz1BRklQLCBDPUFSLCBTRVJJQUxOVU1CRVI9Q1VJVCAzMzY5MzQ1MDIzOSIgdW5pcXVlX2lkPSIxOTg2NTk2NDI4IiBnZW5fdGltZT0iMTcyOTM3NTUwMSIgZXhwX3RpbWU9IjE3Mjk0MTg3NjEiLz4KICAgIDxvcGVyYXRpb24gdHlwZT0ibG9naW4iIHZhbHVlPSJncmFudGVkIj4KICAgICAgICA8bG9naW4gZW50aXR5PSIzMzY5MzQ1MDIzOSIgc2VydmljZT0id3NtdHhjYSIgdWlkPSJTRVJJQUxOVU1CRVI9Q1VJVCAyMDQwNjE2NTI4MSwgQ049Y2FybG9zdGVzdDMiIGF1dGhtZXRob2Q9ImNtcyIgcmVnbWV0aG9kPSIyMiI+CiAgICAgICAgICAgIDxyZWxhdGlvbnM+CiAgICAgICAgICAgICAgICA8cmVsYXRpb24ga2V5PSIyMDQwNjE2NTI4MSIgcmVsdHlwZT0iNCIvPgogICAgICAgICAgICA8L3JlbGF0aW9ucz4KICAgICAgICA8L2xvZ2luPgogICAgPC9vcGVyYXRpb24+Cjwvc3NvPgo=</token>
+        <sign>VNxF9bdBFhQH/hfzi2KLAhB68pmcpMTdZg6IFj/yPTAdfjCU1H2M0b3FT6Jv489n5ZdLOITpPITNRANZPJYgm3B5Ny/wG4J16P4SCenYcWntJIBUWhHMsv7EJiSOjmKU7naJNUmH/vTyfLc5bVwUK+bXH2saO6tib2Yx7Dt1Rj0=</sign>
+    </credentials>
+</loginTicketResponse>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soapenv:Body>
+        <soapenv:Fault>
+            <faultcode xmlns:ns1="http://xml.apache.org/axis/">ns1:coe.alreadyAuthenticated</faultcode><faultstring>El CEE ya posee un TA valido para el acceso al WSN solicitado</faultstring>
+            <detail>
+                <ns2:exceptionName xmlns:ns2="http://xml.apache.org/axis/">gov.afip.desein.dvadac.sua.view.wsaa.LoginFault</ns2:exceptionName>
+                <ns3:hostname xmlns:ns3="http://xml.apache.org/axis/">wsaaext0.homo.afip.gov.ar</ns3:hostname>
+            </detail>
+        </soapenv:Fault>
+    </soapenv:Body>
+</soapenv:Envelope>
